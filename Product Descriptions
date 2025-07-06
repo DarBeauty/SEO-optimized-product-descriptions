@@ -427,7 +427,7 @@ CRITICAL REQUIREMENTS:
 
 -   Ingredients should be in Arabic language only, without omissions.
 
--   For bundled products: Use the phrase \"للاطلاع على المكونات يرجى
+-   For bundled or Set products: Use the phrase \"للاطلاع على المكونات يرجى
     الرجوع إلى صفحة كل منتج على حدة\" (For ingredients, please refer to
     each product page separately)\
     **Tips and Warnings (Product Metafields)**\
@@ -671,6 +671,8 @@ CRITICAL REQUIREMENTS:
 -   Do not limit a product to only one collection if it genuinely applies to multiple logical browsing paths for the customer.
 
 -   Never assign irrelevant collections just to increase exposure. Only include paths that are truly relevant to the product’s core functions or use case.
+
+-   Always add any bundle or multi-piece set to the “BUNDLE & SETS” collection, in addition to its main category.
 
 **Example**:\
 `Collections:`\
