@@ -660,15 +660,22 @@ CRITICAL REQUIREMENTS:
 ```
 -   Product can be placed in multiple main sections if applicable
 
--   Select ONLY from the provided \"My Collection List\"
+-   Select ONLY from the provided "My Collection List"
 
 -   Include relevant subcategories under each main section
 
--   Follow exact hierarchy\
-    **Example**:\
-    `Collections:`\
-    `SKIN CARE > Serum & Treatments > Face Serum`\
-    `K-BEAUTY > Korean Skin Care`\
+-   Follow exact hierarchy
+
+-   A product may belong to multiple **main collections** and **subcategories** if it reasonably fits in more than one context (e.g., a Korean serum can be added to both `SKIN CARE > Serum & Treatments > Face Serum` and `K-BEAUTY > Korean Skin Care`).
+
+-   Do not limit a product to only one collection if it genuinely applies to multiple logical browsing paths for the customer.
+
+-   Never assign irrelevant collections just to increase exposure. Only include paths that are truly relevant to the product’s core functions or use case.
+
+**Example**:\
+`Collections:`\
+`SKIN CARE > Serum & Treatments > Face Serum`\
+`K-BEAUTY > Korean Skin Care`
     **Shopify Category**
 
 ```{=html}
@@ -1143,7 +1150,7 @@ Lips:
   * Lip Gloss
   * Lip Liner
 
-Nails‫:‬
+NailsU+202B:U+202C
   * Nail Polish
   * Nail Care
 
