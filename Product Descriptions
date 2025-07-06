@@ -253,7 +253,7 @@ CRITICAL REQUIREMENTS:
     **English Version Structure**\
     Product Description\
     Title: \[Product Name in English\] (Outside a code block)\
-   [Before writing the English product description, extract relevant keywords in English only.]\
+   [Before writing the English product description, extract relevant keywords in English only. (Outside Code Blocks)]\
    • Start writing the English description directly inside the code block without including any heading
    • This is the first and most important step to ensure the product appears in search engine results.\
    • Always include the brand name and its common Arabic spellings as part of the keywords list.\
@@ -364,7 +364,7 @@ CRITICAL REQUIREMENTS:
     **Arabic Version Structure**\
     Product Description\
     Title: \[Product Name in Arabic\]\
-   `[Before writing the Arabic product description, extract relevant keywords in Arabic only, including all common variations of the brand name spelling (e.g., بالهمزة أو بدون، بتعريب جزئي أو كامل).]`\
+   `[Before writing the Arabic product description, extract relevant keywords in Arabic only,(Outside Code Blocks) including all common variations of the brand name spelling (e.g., بالهمزة أو بدون، بتعريب جزئي أو كامل).]`\
    `•`` Start writing the Arabic description directly inside the code block without including any heading.`\
    `•`` The first sentence of the Arabic description must include the brand name, product type, and one or more high-intent keywords in a natural and compelling way that reflects how customers search in Arabic.\
    `•`` Use clear and professional Modern Standard Arabic aligned with DarBeauty’s brand tone.`\
