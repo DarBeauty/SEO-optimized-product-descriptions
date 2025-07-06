@@ -1,0 +1,1657 @@
+**Instructions for Creating Product Descriptions for Shopify Store**\
+CRITICAL REQUIREMENTS:
+
+-   All information in product descriptions must be 100% accurate and
+    taken directly from the official manufacturer product description.
+    Do not include any information that cannot be verified from the
+    provided source material.
+
+-   Only include relevant fields that apply to the specific product
+    category. Do NOT include skincare-specific fields for non-skincare
+    products.
+
+-   **DO NOT create an Arabic version unless EXPLICITLY requested AND
+    provided with the Arabic product name.** English version ONLY by
+    default.\
+    **Table of Contents**
+
+1.  [[Process
+    Overview](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#process-overview)]{.underline}
+
+2.  [[Text Formatting
+    Requirements](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#text-formatting-requirements)]{.underline}
+
+3.  [[HTML/CSS Formatting
+    Guidelines](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#html/css-formatting-guidelines)]{.underline}
+
+4.  [[Category-Specific
+    Fields](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#category-specific-fields)]{.underline}
+
+5.  [[English Version
+    Structure](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#english-version-structure)]{.underline}
+
+6.  [[Arabic Version
+    Structure](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#arabic-version-structure)]{.underline}
+
+7.  [[Language-Specific
+    Requirements](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#language-specific-requirements)]{.underline}
+
+8.  [[Specific Field Formatting
+    Guidelines](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#specific-field-formatting-guidelines)]{.underline}
+
+9.  [[Final Output Format
+    Example](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#final-output-format-example)]{.underline}
+
+10. [[Final Verification
+    Checklists](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#final-verification-checklists)]{.underline}
+
+11. [[Approved
+    Lists](https://claude.ai/chat/422bd73d-a106-4c80-a68c-866b99b136a1#approved-lists)]{.underline}\
+    **Process Overview**
+
+```{=html}
+<!-- -->
+```
+1.  FIRST: Identify the specific product category (skincare, makeup,
+    hair care, oral care, etc.)
+
+2.  Create ONLY the English version, ensuring all
+    **category-appropriate** sections are included and formatted
+    correctly.
+
+3.  Submit the English version for review.
+
+4.  **IMPORTANT: Do NOT create the Arabic version unless BOTH conditions
+    are met:**
+
+    -   You are EXPLICITLY asked to create an Arabic version
+
+    -   You are PROVIDED with the exact Arabic product name
+
+```{=html}
+<!-- -->
+```
+1.  If both conditions above are met, then create the Arabic version
+    based on the same structure and requirements.
+
+2.  Submit versions separately - English first, Arabic only if
+    specifically requested.\
+    **Text Formatting Requirements**
+
+-   Paragraph Text: All regular text must be in the default paragraph
+    size.
+
+-   **Headings**: Only headings should be in bold.
+
+-   **Text Size and Capitalization**: No other text size variations are
+    allowed. Capitalize only the first letter of sentences and proper
+    nouns, except for standard abbreviations like \"pH\" or \"UV\".\
+    **HTML/CSS Formatting Guidelines**\
+    Basic Structure
+
+```{=html}
+<!-- -->
+```
+-   Use HTML elements appropriately.
+
+-   Use `<strong>` for headings (no additional styling).
+
+-   Use `<ul>` and `<li>` for unordered lists.
+
+-   Use `<ol>` and `<li>` for ordered lists.
+
+-   For sections that are single paragraphs, use plain text or `<p>`
+    tags.
+
+-   Add empty lines between sections using `<br>` or `<br><br>` as
+    needed.\
+    **Styling Rules**
+
+```{=html}
+<!-- -->
+```
+-   Do not use inline styles (avoid style=\"\...\").
+
+-   Do not define colors directly in HTML.
+
+-   Do not use data-mce-style attributes.
+
+-   Do not modify font sizes.
+
+-   Keep classes simple and minimal.
+
+-   If `<p>` tags with classes like class=\"whitespace-pre-wrap
+    break-words\" are not necessary, you may omit them.\
+    **Approved Classes**\
+    For lists:
+
+```{=html}
+<!-- -->
+```
+-   Unordered lists (`<ul>`): class=\"-mt-1 list-disc space-y-2 pl-8\"
+
+-   Ordered lists (`<ol>`): class=\"-mt-1 list-decimal space-y-2 pl-8\"\
+    **For list items (`<li>`)**:
+
+```{=html}
+<!-- -->
+```
+-   class=\"whitespace-normal break-words\"\
+    **Section Spacing**
+
+```{=html}
+<!-- -->
+```
+-   Add `<br>` or `<br><br>` after each section content as needed for
+    readability.
+
+-   Use the same spacing consistently throughout.\
+    **Heading Format**\
+    Example:\
+    `<strong>Title:</strong> [Product Name]`\
+    **Category-Specific Fields**\
+    Product Type Determination\
+    Before creating a product description, first identify the correct
+    product category. This determines which fields to include or omit.\
+    **General Skin Types Rule**
+
+```{=html}
+<!-- -->
+```
+-   Include \"All skin types\" for gentle body care products (lotions,
+    moisturizers, gentle cleansers) unless the official description
+    specifies otherwise or contraindicated
+
+-   **Include specific skin types only** when explicitly stated in the
+    official product description
+
+-   **Omit Skin Types completely** only for products where skin type is
+    truly irrelevant (oral care, hair care, tools, fragrances, etc.)\
+    **Field Selection Rules**
+
+```{=html}
+<!-- -->
+```
+-   Skincare Products: Include Skin Types, Skin Concerns, Key
+    Ingredients
+
+-   **Makeup Products**: Include Skin Types (if relevant to skin
+    contact), omit Skin Concerns unless specifically mentioned
+
+-   **Hair Care**: Omit Skin Types and Skin Concerns completely
+
+-   **Body Care**: Follow General Skin Types Rule above. Include Skin
+    Concerns only if specifically mentioned in the official product
+    description
+
+-   **Oral Care**: Omit ALL skincare-specific fields (Skin Types, Skin
+    Concerns, etc.)
+
+-   **Tools & Accessories**: Omit ALL skincare-specific fields
+
+-   **Fragrances**: Omit ALL skincare-specific fields\
+    **When to Omit Fields Completely**
+
+```{=html}
+<!-- -->
+```
+-   If a field is not applicable to the product category, **OMIT IT
+    ENTIRELY** - do not leave it blank or include placeholder text
+
+-   Never force a skincare classification onto non-skincare products
+
+-   Do not include any field that is not explicitly supported by the
+    product\'s official description\
+    **Examples of Category-Appropriate Fields**\
+    IMPORTANT: Note the difference between Shopify Category and
+    Collections:
+
+```{=html}
+<!-- -->
+```
+-   **Shopify Category**: The official Shopify category path (from
+    Shopify category list)
+
+-   **Collections**: Your store\'s custom organization structure (from
+    My Collection List)\
+    **Example 1 (Skincare Product)**:\
+    `Shopify Category: Health & Beauty > Personal Care > Cosmetics > Skin Care > Face Serums`\
+    `Collections: SKIN CARE > Serum & Treatments > Face Serum`\
+    `Skin Types:`\
+    `All skin types`\
+    `Oily`\
+    `Skin Concerns:`\
+    `Enlarged Pores`\
+    `Excess Sebum`\
+    `Uneven Skin Tone`\
+    `Key Ingredients:`\
+    `Niacinamide`\
+    `Hyaluronic Acid`\
+    **Example 2 (Body Care Product)**:\
+    `Shopify Category: Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotions & Moisturizers`\
+    `Collections: BATH & BODY CARE > Body Lotion`\
+    `Skin Types:`\
+    `All skin types`\
+    `Skin Concerns:`\
+    `Dryness`\
+    `Dullness`\
+    `Key Ingredients:`\
+    `Vitamin C`\
+    `Vitamin E`\
+    **Example 3 (Hair Care Product)**:\
+    `Shopify Category: Health & Beauty > Personal Care > Hair Care > Shampoo & Conditioner > Shampoo`\
+    `Collections: HAIR CARE > Shampoo & Conditioner`\
+    (Note: Skin Types, Skin Concerns, Key Ingredients are completely
+    omitted)\
+    **Example 4 (Oral Care Product)**:\
+    `Shopify Category: Health & Beauty > Personal Care > Oral Care > Toothpaste`\
+    `Collections: BATH & BODY CARE > Oral Care`\
+    `Product Highlights:`\
+    `Fluoride Free`\
+    `Whitening`\
+    (Note: All skincare-specific fields are completely omitted)\
+    **English Version Structure**\
+    Product Description\
+    Title: \[Product Name in English\] (Outside a code block)\
+   [Before writing the English product description, extract relevant keywords in English only.]\
+   • Start writing the English description directly inside the code block without including any heading
+   • This is the first and most important step to ensure the product appears in search engine results.\
+   • Always include the brand name and its common Arabic spellings as part of the keywords list.\
+   • Focus on combinations that reflect real customer search behavior: brand name + product type + benefit or concern.\
+   • Avoid overly broad or generic keywords. Prioritize high-intent, brand-driven phrases.\
+   • The first sentence of the product description must include the brand name, product type, and one or more high-intent keywords in a natural, compelling way that aligns with how real customers search.\
+   • Do not begin writing until the English keyword list is complete.\
+    \
+    [Product description starts here...]\
+    `<br><br>`\
+    \
+    `<strong>Key Benefits</strong>`\
+    \
+    `<ul class="-mt-1 list-disc space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">Benefit 1</li>`\
+    `    <!-- Continue with 3-7 key benefits -->`\
+    `</ul>`\
+    \
+    `<br>`\
+    \
+    `<!-- INCLUDE THE FOLLOWING SECTIONS ONLY IF APPLICABLE TO THE PRODUCT CATEGORY -->`\
+    \
+    `<strong>Skin Types</strong>`\
+    \
+    `<ul class="-mt-1 list-disc space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">Skin Type 1</li>`\
+    `    <!-- Only write those that are 100% certain and clearly stated in the official product source description OR follow General Skin Types Rule -->`\
+    `</ul>`\
+    \
+    `<br>`\
+    \
+    `<strong>Skin Concerns</strong>`\
+    \
+    `<ul class="-mt-1 list-disc space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">Skin Concern 1</li>`\
+    `    <!-- Only write those that are 100% certain and clearly stated in the official product source description -->`\
+    `</ul>`\
+    \
+    `<br>`\
+    \
+    `<strong>How to Use</strong>`\
+    \
+    `<!-- If instructions are step-by-step, use an ordered list -->`\
+    `<ol class="-mt-1 list-decimal space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">Step 1</li>`\
+    `    <!-- Provide specific instructions -->`\
+    `</ol>`\
+    \
+    `<!-- If instructions are not step-by-step, write as a paragraph -->`\
+    `[Write instructions as a single paragraph.]`\
+    \
+    `<br>`\
+    \
+    `<strong>Ingredients:</strong> Ingredient 1, Ingredient 2, Ingredient 3.`\
+    **Tips and Warnings (Product Metafields)**\
+    `Tip or Warning 1`\
+    `Tip or Warning 2`\
+    `Tip or Warning 3`\
+    **Tags**\
+    `tag1, tag2, tag3`\
+    **Other Fields (Outside Code Blocks)**
+
+```{=html}
+<!-- -->
+```
+-   \*\*Media Alt Text: \[5 variations under 125 characters that include
+    the full product name with brand, inside code block\]
+
+-   **Shopify Category**: \[Select ONLY from the provided Shopify
+    category list\]
+
+-   **Product Type**: \[Specific category - keep this short and
+    concise\]
+
+-   **Collections**: \[Select ONLY from the provided \"My Collection
+    List\"\]
+
+    -   Include both main collections and subcategories
+
+    -   Follow exact hierarchy
+
+```{=html}
+<!-- -->
+```
+-   **Product Metafields** (INCLUDE ONLY IF APPLICABLE TO PRODUCT
+    CATEGORY):
+
+    -   Skin Types - Select ONLY from the provided Skin Types list
+
+    -   Key Ingredients - Select ONLY from the provided Key Ingredients
+        list
+
+    -   Skin Concerns - Select ONLY from the provided Skin Concerns
+        official list
+
+    -   Product Highlights - Select ONLY from the provided Product
+        Highlights list\
+        **Other Fields (Inside Code Blocks)**
+
+```{=html}
+<!-- -->
+```
+-   Page Title: \[Brand + Most Common Product Name Term\] (60-70
+    characters)
+
+-   **Meta Description**: \[140-160 characters; stop at 155
+    characters\]\
+    **Arabic Version Structure**\
+    Product Description\
+    Title: \[Product Name in Arabic\]\
+   `[Before writing the Arabic product description, extract relevant keywords in Arabic only, including all common variations of the brand name spelling (e.g., بالهمزة أو بدون، بتعريب جزئي أو كامل).]`\
+   `•`` Start writing the Arabic description directly inside the code block without including any heading.`\
+   `•`` The first sentence of the Arabic description must include the brand name, product type, and one or more high-intent keywords in a natural and compelling way that reflects how customers search in Arabic.\
+   `•`` Use clear and professional Modern Standard Arabic aligned with DarBeauty’s brand tone.`\
+   `•`` Avoid overly generic phrases, and focus on what customers actually search: brand name + benefit + type.`\
+   `•`` Do not begin writing until the Arabic keyword list is complete.`\
+    \
+    `[``ي``ب``د``أ`` ``و``ص``ف`` ``ا``ل``م``ن``ت``ج`` ``ه``ن``ا``...]`\
+    \
+    `<br><br>`\
+    \
+    `<strong>``ا``ل``ف``و``ا``ئ``د`` ``ا``ل``ر``ئ``ي``س``ي``ة``</strong>`\
+    \
+    `<ul class="-mt-1 list-disc space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">``ا``ل``ف``ا``ئ``د``ة`` 1</li>`\
+    `    <!-- Continue with other key benefits -->`\
+    `</ul>`\
+    \
+    `<br>`\
+    \
+    `<!-- INCLUDE THE FOLLOWING SECTIONS ONLY IF APPLICABLE TO THE PRODUCT CATEGORY -->`\
+    \
+    `<strong>``أ``ن``و``ا``ع`` ``ا``ل``ب``ش``ر``ة``</strong>`\
+    \
+    `<ul class="-mt-1 list-disc space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">``ن``و``ع`` ``ا``ل``ب``ش``ر``ة`` 1</li>`\
+    `    <!-- Only write those that are 100% certain and clearly stated in the official product source description OR follow General Skin Types Rule -->`\
+    `</ul>`\
+    \
+    `<br>`\
+    \
+    `<strong>``م``خ``ا``و``ف`` ``ا``ل``ب``ش``ر``ة``</strong>`\
+    \
+    `<ul class="-mt-1 list-disc space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">``م``ش``ك``ل``ة`` ``ا``ل``ب``ش``ر``ة`` 1</li>`\
+    `    <!-- Only write those that are 100% certain and clearly stated in the official product source description -->`\
+    `</ul>`\
+    \
+    `<br>`\
+    \
+    `<strong>``ط``ر``ي``ق``ة`` ``ا``ل``ا``س``ت``خ``د``ا``م``</strong>`\
+    \
+    `<!-- If instructions are step-by-step, use an ordered list -->`\
+    `<ol class="-mt-1 list-decimal space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">``ا``ل``خ``ط``و``ة`` 1</li>`\
+    `    <!-- Provide specific instructions -->`\
+    `</ol>`\
+    \
+    `<!-- If instructions are not step-by-step, write as a paragraph -->`\
+    `[Write instructions as a single paragraph.]`\
+    \
+    `<br><br>`\
+    \
+    `<strong>``ا``ل``م``ك``و``ن``ا``ت``:</strong> ``م``ك``و``ن`` 1``،`` ``م``ك``و``ن`` 2``،`` ``م``ك``و``ن`` 3.`\
+    **Important Note for Ingredients in Arabic Version**:
+
+```{=html}
+<!-- -->
+```
+-   Use Arabic commas (،) between ingredients.
+
+-   Ingredients should be in Arabic language only, without omissions.
+
+-   For bundled products: Use the phrase \"للاطلاع على المكونات يرجى
+    الرجوع إلى صفحة كل منتج على حدة\" (For ingredients, please refer to
+    each product page separately)\
+    **Tips and Warnings (Product Metafields)**\
+    `ن``ص``ي``ح``ة`` ``أ``و`` ``ت``ح``ذ``ي``ر`` 1`\
+    `ن``ص``ي``ح``ة`` ``أ``و`` ``ت``ح``ذ``ي``ر`` 2`\
+    `ن``ص``ي``ح``ة`` ``أ``و`` ``ت``ح``ذ``ي``ر`` 3`\
+    **Tags**\
+    `ت``ا``غ``1, ``ت``ا``غ``2, ``ت``ا``غ``3`\
+    **Important Note**: Use English commas (,) to separate tags, not
+    Arabic commas (،), even in the Arabic version.\
+    **Other Fields (Inside Code Blocks)**
+
+```{=html}
+<!-- -->
+```
+-   Page Title: \[Brand + Most Common Product Name Term in Arabic\]
+    (60-70 characters)
+
+-   **Meta Description**: \[140-160 characters; stop at 155
+    characters\]\
+    **Other Fields (Outside Code Blocks)**
+
+```{=html}
+<!-- -->
+```
+-   \*\*Media Alt Text: \[5 variations in Arabic, under 125 characters,
+    that include the full product name with the brand inside code block\.\]
+
+-   **Product Type**: \[Specific category in Arabic\]\
+    **Language-Specific Requirements**\
+    English Version - Required Fields:
+
+```{=html}
+<!-- -->
+```
+-   HTML product description (based on source material)
+
+-   Product Type (English)
+
+-   Shopify Category (Only from approved \"Shopify category list\")
+
+-   Collections (Only from approved \"My Collection List\")
+
+-   Product Highlights (Only from approved \"Product Highlights list\",
+    **only if applicable**)
+
+-   Skin Types (Only from \"Skin Type list\", **only if applicable to
+    product category**)
+
+-   Skin Concerns (Only from \"Skin Concerns list\", **only if
+    applicable to product category**)
+
+-   Key Ingredients (Only from Key Ingredients list, **only if
+    applicable to product category**)
+
+-   Tips and Warnings (English only)
+
+-   Media Alt Text (English only)
+
+-   Page Title (English only)
+
+-   Meta Description (English only)
+
+-   Tags (English only - use English commas between tags)\
+    **Arabic Version - Required Fields:**
+
+```{=html}
+<!-- -->
+```
+-   HTML product description (Arabic version)
+
+-   Product Type (Arabic)
+
+-   Tips and Warnings (Arabic only)
+
+-   Media Alt Text (Arabic only)
+
+-   Page Title (Arabic only)
+
+-   Meta Description (Arabic only)
+
+-   Tags (Arabic only - still use English commas)\
+    **Not Required in Arabic version**:
+
+```{=html}
+<!-- -->
+```
+-   Shopify Category
+
+-   Collections
+
+-   Product Highlights
+
+-   Skin Types
+
+-   Skin Concerns
+
+-   Key Ingredients\
+    **IMPORTANT NOTE: For both English and Arabic versions, ONLY include
+    category-specific fields that are relevant to the product. OMIT any
+    field that does not apply to the product category (do not leave it
+    blank or include placeholder text).**\
+    **Specific Field Formatting Guidelines**\
+    Product Metafields Output\
+    Each value under the following fields must appear on a separate line
+    for clarity and ease of copying each individually:
+
+```{=html}
+<!-- -->
+```
+-   Skin Types
+
+-   Skin Concerns
+
+-   Product Highlights
+
+-   Key Ingredients\
+    **Example**:\
+    `Skin Types:`\
+    `All skin types`\
+    `Sensitive`\
+    \
+    `Skin Concerns:`\
+    `Dryness`\
+    `Redness`\
+    `Uneven Skin Tone`\
+    **Media Alt Text**
+
+```{=html}
+<!-- -->
+```
+    Focus on generating 5 SEO-optimized Media Alt Texts for the product name I will provide.
+	•	Start by researching the most common search terms used by real customers for this product in both languages.
+	•	Use the most relevant, high-search-intent keywords in each Alt Text.
+	•	Avoid literal translations or repeating the same structure.
+	•	Arabic text should use the most common search-friendly phrasing used across Arabic e-commerce and Google.
+	•	Do not start generating until you have analyzed the best matching keywords.
+	•	Each variation MUST include the brand name (at the beginning, middle, or end)
+    **Example (English Version)**:\
+    `Media Alt Text:`\
+    `The Ordinary Niacinamide 10% + Zinc 1% Serum`\
+    `Niacinamide Serum by The Ordinary 10% Concentration`\
+    `The Ordinary Zinc and Niacinamide Solution for Oily Skin`\
+    `Pore-Minimizing Niacinamide from The Ordinary`\
+    `The Ordinary's Best-Selling Niacinamide Serum`\
+    **Example (Arabic Version)**:\
+    `س``ي``ر``و``م`` ``ذ``ا`` ``ا``و``ر``د``ي``ن``ا``ر``ي`` ``ن``ي``ا``س``ي``ن``ا``م``ي``د`` 10``٪`` + ``ز``ن``ك`` 1``٪`\
+    `ذ``ا`` ``ا``و``ر``د``ن``ا``ر``ي`` ``م``ص``ل`` ``ا``ل``ن``ي``ا``س``ي``ن``ا``م``ي``د`` ``ل``ل``ب``ش``ر``ة`` ``ا``ل``د``ه``ن``ي``ة`\
+    `ن``ي``ا``س``ي``ن``ا``م``ي``د`` ``ذ``ا`` ``ا``و``ر``د``ي``ن``ا``ر``ي`` ``ل``ت``ق``ل``ي``ل`` ``ا``ل``م``س``ا``م`\
+    `س``ي``ر``م`` ``ا``ل``ز``ن``ك`` ``م``ن`` ``ذ``ا`` ``ا``و``ر``د``ن``ا``ر``ي`` ``ل``ل``ب``ش``ر``ة`` ``ا``ل``م``خ``ت``ل``ط``ة`\
+    `ذ``ا`` ``ا``و``ر``د``ن``ا``ر``ي`` ``س``ي``ر``و``م`` ``ت``ص``غ``ي``ر`` ``ا``ل``م``س``ا``م`` ``و``ا``ل``ت``ح``ك``م`` ``ب``ا``ل``د``ه``و``ن`\
+    **SEO Title and Meta Description Character Limits**
+
+```{=html}
+<!-- -->
+```
+-   Page Title:
+
+    -   Must START with the brand name followed by the correct product
+        name
+
+    -   Recommended length: 60-70 characters max
+
+    -   Count includes spaces and symbols
+
+    -   Avoid exceeding 70 characters; ideal range is 55-65 characters
+
+    -   Should be optimized for search engine listing requirements\
+        **Example**:\
+        `The Ordinary Niacinamide 10% + Zinc 1% | Pore-Minimizing Serum`
+
+```{=html}
+<!-- -->
+```
+-   **Meta Description**:
+
+    -   Ideal length: 140-160 characters
+
+    -   Must stop at 155 characters max to ensure full visibility in
+        search results
+
+    -   Spaces and punctuation are included in the count\
+        **Tags (Keywords)**
+
+```{=html}
+<!-- -->
+```
+-   Tags must reflect how customers in the Arabian Gulf region might
+    search
+
+-   Always include multiple variations of:
+
+    -   Brand name in different writing forms (e.g., ذا اوردناري، ذا
+        اورديناري، اورديناري، اوردناري)
+
+    -   Product terms in different formats (e.g., سيروم، سيرم، مصل)
+
+    -   Common misspellings or keyboard errors
+
+    -   Transliteration variants
+
+```{=html}
+<!-- -->
+```
+-   Tags must be separated using English commas (,) even in Arabic\
+    **Example (English)**:\
+    `the ordinary, ordinary, niacinamide, zinc, pore minimizing, oil control, serum, face serum`\
+    **Example (Arabic)**:\
+    `ذ``ا`` ``ا``و``ر``د``ن``ا``ر``ي``, ``ذ``ا`` ``ا``و``ر``د``ي``ن``ا``ر``ي``, ``ا``و``ر``د``ي``ن``ا``ر``ي``, ``ا``و``ر``د``ن``ا``ر``ي``, ``ن``ي``ا``س``ي``ن``ا``م``ي``د``, ``ز``ن``ك``, ``س``ي``ر``و``م``, ``س``ي``ر``م``, ``م``ص``ل``, ``ت``ق``ل``ي``ل`` ``ا``ل``م``س``ا``م``, ``ت``ح``ك``م`` ``ب``ا``ل``د``ه``و``ن`\
+    **Product Type**
+
+```{=html}
+<!-- -->
+```
+-   Should be short and concise (avoid long descriptions)
+
+-   Must be suitable for the Shopify \"Product organization \> Type\"
+    field
+
+-   Use general category terms rather than specific detailed
+    descriptions\
+    **Example**:\
+    `Face Serum`\
+    Instead of:\
+    `Niacinamide and Zinc Face Serum for Oily Skin`\
+    **Collections**
+
+```{=html}
+<!-- -->
+```
+-   Product can be placed in multiple main sections if applicable
+
+-   Select ONLY from the provided \"My Collection List\"
+
+-   Include relevant subcategories under each main section
+
+-   Follow exact hierarchy\
+    **Example**:\
+    `Collections:`\
+    `SKIN CARE > Serum & Treatments > Face Serum`\
+    `K-BEAUTY > Korean Skin Care`\
+    **Shopify Category**
+
+```{=html}
+<!-- -->
+```
+-   Select ONLY from the provided \"Shopify category list\"
+
+-   This is different from Collections - it\'s the official Shopify
+    category path
+
+-   Choose the most specific and appropriate category for the product\
+    **Example**:\
+    `Shopify Category: Health & Beauty > Personal Care > Cosmetics > Skin Care > Face Serums`\
+    **Tips and Warnings**
+
+```{=html}
+<!-- -->
+```
+-   This section must include insightful, context-aware, and useful
+    recommendations based on the official product data
+
+-   Go beyond generic caution. Provide:
+
+    -   The best time of day or routine step to use the product
+
+    -   Products that pair well with it for optimal results
+
+    -   Products that should be avoided with it (if applicable)
+
+    -   Whether to start gradually, especially if the product is strong
+        or high-concentration
+
+    -   Suggestions tailored to sensitive users or specific conditions
+
+    -   Any brand-issued precautions or special use cases\
+        **Example (English)**:\
+        `Use in the evening routine after cleansing and toning.`\
+        \
+        `Apply before heavier creams and oils.`\
+        \
+        `Do not mix with products containing Vitamin C in the same routine.`\
+        \
+        `Start with 2-3 times per week if you have sensitive skin.`\
+        **Example (Arabic)**:\
+        `ي``ُ``ف``ض``ّ``ل`` ``ا``س``ت``خ``د``ا``م``ه`` ``ف``ي`` ``ا``ل``ر``و``ت``ي``ن`` ``ا``ل``م``س``ا``ئ``ي`` ``ب``ع``د`` ``ا``ل``ت``ن``ظ``ي``ف`` ``و``ا``ل``ت``و``ن``ر``.`\
+        `ي``ُ``و``ض``ع`` ``ق``ب``ل`` ``ا``ل``ك``ر``ي``م``ا``ت`` ``و``ا``ل``ز``ي``و``ت`` ``ا``ل``ث``ق``ي``ل``ة``.`\
+        `ت``ج``ن``ّ``ب`` ``ا``س``ت``خ``د``ا``م``ه`` ``م``ع`` ``م``ن``ت``ج``ا``ت`` ``ت``ح``ت``و``ي`` ``ع``ل``ى`` ``ف``ي``ت``ا``م``ي``ن`` C ``ف``ي`` ``ن``ف``س`` ``ا``ل``ر``و``ت``ي``ن``.`\
+        `ل``ل``ب``ش``ر``ة`` ``ا``ل``ح``س``ا``س``ة``،`` ``ي``ُ``ن``ص``ح`` ``ب``ا``س``ت``خ``د``ا``م``ه`` ``م``ر``ت``ي``ن`` ``ف``ي`` ``ا``ل``أ``س``ب``و``ع`` ``ف``ق``ط`` ``ف``ي`` ``ا``ل``ب``د``ا``ي``ة``.`\
+        **Boxed Output Format**\
+        The following fields must be displayed inside copyable code
+        blocks (with NO title labels inside the block):
+
+```{=html}
+<!-- -->
+```
+-   Tips and Warnings
+
+-   Tags
+
+-   Page Title
+
+-   Meta Description\
+    **Example for Page Title:**\
+    `The Ordinary Niacinamide 10% + Zinc 1% | Pore-Minimizing Serum`\
+    NOT:\
+    `Page Title: The Ordinary Niacinamide 10% + Zinc 1% | Pore-Minimizing Serum`\
+    **Example for Meta Description:**\
+    `Experience the powerful combination of 10% Niacinamide and 1% Zinc in The Ordinary's bestselling serum. Targets excess oil, minimizes pores and improves skin texture.`\
+    NOT:\
+    `Meta Description: Experience the powerful combination of 10% Niacinamide and 1% Zinc in The Ordinary's bestselling serum. Targets excess oil, minimizes pores and improves skin texture.`\
+    This format ensures easy copying directly to Shopify fields without
+    needing to remove labels.\
+    **Final Output Format Example**\
+    A proper final output should follow this structure, with sections
+    included ONLY if relevant to the specific product category:\
+    **{Product Name}**\
+    `{``Product description paragraph with unique selling proposition, technology/innovation, key benefits, and target audience.``}`\
+    \
+    `<br><br>`\
+    \
+    `<strong>Key Benefits</strong>`\
+    \
+    `<ul class="-mt-1 list-disc space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">``{``Benefit 1``}``</li>`\
+    `    <li class="whitespace-normal break-words">``{``Benefit 2``}``</li>`\
+    `    <li class="whitespace-normal break-words">``{``Benefit 3``}``</li>`\
+    `    <li class="whitespace-normal break-words">``{``Benefit 4``}``</li>`\
+    `    <!-- Add more benefits as appropriate -->`\
+    `</ul>`\
+    \
+    `<br>`\
+    \
+    `<!-- Include only relevant sections for the product category -->`\
+    \
+    `<strong>How to Use</strong>`\
+    \
+    `<ol class="-mt-1 list-decimal space-y-2 pl-8">`\
+    `    <li class="whitespace-normal break-words">``{``Step 1``}``</li>`\
+    `    <li class="whitespace-normal break-words">``{``Step 2``}``</li>`\
+    `    <!-- Add more steps as needed -->`\
+    `</ol>`\
+    \
+    `<br>`\
+    \
+    `<strong>Ingredients:</strong> ``{``Ingredient 1``}``, ``{``Ingredient 2``}``, ``{``Ingredient 3``}``, ``{``etc.``}`\
+    **Tips and Warnings**\
+    `{``Tip/Warning 1``}`\
+    `{``Tip/Warning 2``}`\
+    `{``Tip/Warning 3``}`\
+    `{``Tip/Warning 4``}`\
+    **Tags**\
+    `{``tag1``}``, ``{``tag2``}``, ``{``tag3``}``, ``{``tag4``}``, ``{``brand variations``}``, ``{``product term variations``}`\
+    **Page Title**\
+    `{``Brand name``}`` ``{``Product name``}`` | ``{``Key benefit/feature``}`\
+    (MUST be 60-70 characters max, ideally 55-65 characters including
+    spaces)\
+    **Meta Description**\
+    `{``Compelling description of product with key benefits and features. Keep between 140-155 characters including spaces.``}`\
+    **Shopify Category**: {Appropriate category from approved Shopify
+    category list}\
+    **Product Type**: {Short product type}\
+    **Collections**: {Appropriate collection(s) from approved My
+    Collection List}\
+    \<!\-- Include only fields that are relevant to the specific product
+    category \--\>\
+    **Product Highlights**: \<!\-- Include only if applicable \--\>
+    {Appropriate highlights from approved list}\
+    \<!\-- OMIT skincare-specific fields if not applicable to the
+    product category \--\>\
+    Final Verification Checklists\
+    Category Verification (FIRST STEP)
+
+```{=html}
+<!-- -->
+```
+-   Correctly identify product category (Skincare, Makeup, Hair Care,
+    Body Care, Oral Care, Tools, etc.)
+
+-   Include ONLY fields relevant to the identified category
+
+-   Completely omit fields that do not apply (do not include empty or
+    N/A placeholders)
+
+-   Apply General Skin Types Rule correctly\
+    **English Version Checklist**
+
+```{=html}
+<!-- -->
+```
+-   All sections are complete and relevant to product category
+
+-   INCI names are used for ingredients (where applicable)
+
+-   Collections are from the official Collection List
+
+-   Only applicable category-specific fields are included
+
+-   General Skin Types Rule has been applied correctly
+
+-   English commas (,) are used in tags
+
+-   SEO elements are within character limits
+
+-   Gender-neutral language is used
+
+-   Default paragraph size for all regular text
+
+-   Only headings are in bold
+
+-   All code blocks are correctly formatted
+
+-   Nothing is omitted that should be included
+
+-   No irrelevant fields are included
+
+-   Shopify Category is selected from the provided list and is
+    appropriate for the product\
+    **Arabic Version Checklist**
+
+```{=html}
+<!-- -->
+```
+-   All sections are complete and relevant to product category
+
+-   Ingredients are in Arabic only
+
+-   Arabic commas (،) are used between ingredients
+
+-   English commas (,) are used in tags
+
+-   Same categories as the English version are used, selected from
+    provided lists
+
+-   Gender-neutral language is used
+
+-   Consistent terminology is maintained
+
+-   Default paragraph size for all regular text
+
+-   Only headings are in bold
+
+-   Tags include terms that can be written in multiple ways to enhance
+    searchability
+
+-   All code blocks are correctly formatted
+
+-   Nothing is omitted that should be included
+
+-   No irrelevant fields are included
+
+-   Product Type is specified in Arabic\
+    **Final Verification**
+
+```{=html}
+<!-- -->
+```
+-   Both versions are complete
+
+-   No mixed languages within sections
+
+-   Tags are properly separated with English commas (,)
+
+-   Ingredients are properly formatted in each version
+
+-   All official lists are followed
+
+-   Hierarchies are maintained
+
+-   Technical accuracy is preserved
+
+-   Text formatting guidelines are followed
+
+-   No sections or important details are missing
+
+-   All information is 100% accurate and taken directly from the
+    official manufacturer product description
+
+-   No fields are included that don\'t apply to the specific product
+    category
+
+-   General Skin Types Rule has been applied correctly\
+    **Approved Lists**\
+    Skin Type list:\
+    Acne-prone
+Sensitive
+Combination
+Oily
+Dry
+Normal
+All skin types\
+    **Key Ingredients list:**\
+    Alpha Arbutin
+Galactomyces
+Ginseng Extract
+Centella Asiatica
+    (Cica)
+Propolis Extract
+Snail Mucin
+Rice Extract
+Shea
+    Butter
+Glycerin
+AHA/BHA
+Panthenol
+Ceramides
+Peptides
+Collagen
+Chamomile
+Tea
+    Tree
+Green Tea
+Aloe Vera
+Rosehip Oil
+Coconut Oil
+Jojoba Oil
+Argan
+    Oil
+Lactic Acid
+Glycolic Acid
+Salicylic Acid
+Hyaluronic
+    Acid
+Niacinamide
+Retinol
+Vitamin E
+Vitamin C
+Caffeine\
+    **Product Highlights list:**\
+    Cruelty Free
+Vegan
+Sulfate Free
+Paraben Free
+Fragrance Free
+Alcohol
+    Free
+Oil Free
+Non-Comedogenic
+Dermatologically Tested Aluminum Free\
+    **Skin Concerns list:**\
+    Dryness
+Uneven Skin Tone
+Skin Irritation
+Dead Skin
+    Build-up
+Acne
+Wrinkles
+Fine
+    Lines
+Bacteria
+Blackheads
+Blemishes
+Cellulite
+Dark Circles
+Dark
+    Spots
+Melasma
+Freckles
+Dullness
+Fatigue
+Imperfections
+Itching
+Excess
+    Keratin
+Harmful
+    Particles
+Perspiration
+Pimples
+Puffiness
+Redness
+Rubbing
+Scars
+Excess
+    Shine
+Oily Skin
+Stress
+Stretch Marks
+Loss of Elasticity
+Skin
+    Hollows
+Sagging
+Excess Weight
+Rough Skin
+Weak Skin
+Wounds
+Dark Spot
+    Marks
+Tired Skin
+Clogged Pores
+Enlarged Pores
+Pigmentation
+Excess
+    Sebum
+Sensitive Skin
+Sun Spots
+Whiteheads
+Surgical Scars
+Burn
+    Marks
+Skin Ulcers
+Broken Capillaries
+Allergies
+Cystic Acne
+Facial
+    Dandruff
+Facial Redness
+Hyperpigmentation
+Skin Inflammation
+Nasal
+    Pimples
+Uneven Skin Texture
+Fine Wrinkles
+Loose Skin
+Excess Oil
+    Production
+Genetic Pigmentation
+Signs of Fatigue
+Crow\'s Feet
+Pale
+    Skin
+Old Wound Marks
+Painful Pimples
+Subcutaneous
+    Bleeding
+Eczema
+Psoriasis
+Dermatitis
+Swelling
+Thin Skin
+Skin
+    Cracks
+Lip Cracks
+Red Pigmentation
+Scaly Skin
+Yellow
+    Pigmentation
+Genetic Dark Circles
+Purple Spots
+Sebaceous
+    Cysts
+Hormonal Acne
+Irritated Skin
+Rash
+Inflamed
+    Pimples
+Pustules
+Deep Scars
+Keratosis
+Severe Cracking
+Perioral
+    Wrinkles
+Periorbital Redness
+Severe Itching
+Burning
+    Sensation
+Hyperhidrosis
+Fine Lines Around Lips
+Eyelid
+    Swelling
+Seasonal Allergies
+Acute Swelling
+Eye Fatigue Signs
+Heat
+    Sensitivity
+Cold Sensitivity\
+
+### My Collection List:
+1. SKIN CARE
+---------------------------
+Cleanse & Exfoliate:
+  * Cleansers
+  * Exfoliators
+  * Micellar Water
+
+Moisturizing & Creams:
+  * Moisturizers
+  * Face Mists
+  * Face Oil
+
+Masks & Peels:
+  * Peels
+  * Sheet Masks
+  * Clay Masks
+
+Serum & Treatments:
+  * Eye Creams
+  * Face Serum
+  * Toners
+  * Lip Care
+
+Suncare
+
+2. MAKEUP
+---------------------------
+Face:
+  * Foundation
+  * Concealer
+  * Blush
+  * Bronzer
+  * Highlight
+  * BB/CC Cream
+  * Face Powder
+  * Setting Spray
+
+Eyes:
+  * Eyeshadow
+  * Mascara
+  * Eyeliner
+  * Brow Products
+
+Lips:
+  * Lipstick
+  * Lip Gloss
+  * Lip Liner
+
+Nails‫:‬
+  * Nail Polish
+  * Nail Care
+
+3. HAIR CARE
+---------------------------
+  * Shampoo & Conditioner
+  * Hair Masks
+  * Scalp Care
+  * Hair Oil
+  * Hair Serums
+  * Hair Spray
+  * Heat Protection
+  * Hair Dye
+
+4. BATH & BODY CARE
+---------------------------
+  * Body Wash
+  * Body Lotion
+  * Body Oil
+  * Body Scrub
+  * Hand & Foot Care
+  * Intimate Care
+  * Oral Care
+  * Deodorants
+
+5. ELECTRICALS & TOOLS
+---------------------------
+Electrical Tools:
+  * Hair Dryers
+  * Hair Straighteners
+  * Curling Irons
+  * Electric Hair Brushes
+
+Makeup Tools:
+  * Makeup Brushes
+  * Beauty Sponges
+  * Eyelash Curlers
+  * Nail Tools
+  * Press-On Nails
+
+Bath Loofahs
+Face Brushes
+Hair Brushes & Combs
+Travel Bottles
+
+6. BUNDLE & SETS
+---------------------------
+  * Skin Care Sets
+  * Makeup Sets
+  * Hair Care Sets
+  
+7. K-BEAUTY
+---------------------------
+  * Korean Skin Care
+  * Korean Makeup
+  * Korean Hair Care
+  * Korean Body Care
+
+
+    \
+    \### Shopify category list:\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \> Bar
+    Soap\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \> Bath
+    Additives\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \> Bath
+    Brushes\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \> Bath
+    Sponges & Loofahs\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \> Body
+    Wash\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \> Hand
+    Sanitizers & Wipes\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \>
+    Hygienic Wipes\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \>
+    Liquid Hand Soap\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \>
+    Powdered Hand Soap\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body \>
+    Shower Caps\
+    Health & Beauty \> Personal Care \> Cosmetics \> Bath & Body Gift
+    Sets\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Sets\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tool
+    Cleansers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Double Eyelid Glue & Tape\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Eyebrow Stencils\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Eyelash Curler Refills\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Eyelash Curlers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Face Mirrors\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Facial Blotting Paper\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> False Eyelash Accessories \> False Eyelash Adhesive\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> False Eyelash Accessories \> False Eyelash
+    Applicators\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> False Eyelash Accessories \> False Eyelash Remover\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Makeup Brushes\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Makeup Sponges\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Makeup Tools \> Refillable Makeup Palettes & Cases\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Cuticle Pushers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Cuticle Scissors\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Manicure & Pedicure Spacers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Manicure Tool Sets\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Nail Buffers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Nail Clippers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Nail Drill Accessories\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Nail Drills\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Nail Dryers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Nail Tools \> Nail Files & Emery Boards\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Facial Saunas\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Foot Files\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Lotion & Sunscreen Applicators\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Pumice Stones\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Skin Care Extractors\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Skin Care Rollers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Skin Cleansing Brush Heads\
+    Health & Beauty \> Personal Care \> Cosmetics \> Cosmetic Tools \>
+    Skin Care Tools \> Skin Cleansing Brushes & Systems\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Body
+    Makeup \> Body & Hair Glitter\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Body
+    Makeup \> Body Paint & Foundation\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Costume &
+    Stage Makeup\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> Eye Primers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> Eye Shadows\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> Eyebrow Enhancers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> Eyeliner\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> False Eyelashes\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> Lash & Brow Growth Treatments\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> Mascara Primers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Eye
+    Makeup \> Mascaras\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Face
+    Makeup \> Blushes & Bronzers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Face
+    Makeup \> Face Powder\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Face
+    Makeup \> Face Primers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Face
+    Makeup \> Foundations & Concealers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Face
+    Makeup \> Highlighters & Luminizers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Lip
+    Makeup \> Lip & Cheek Stains\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Lip
+    Makeup \> Lip Gloss\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Lip
+    Makeup \> Lip Liners\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Lip
+    Makeup \> Lip Primers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Lip
+    Makeup \> Lipsticks\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Makeup
+    Finishing Sprays\
+    Health & Beauty \> Personal Care \> Cosmetics \> Makeup \> Temporary
+    Tattoos\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \>
+    Cuticle Creams & Oil \> Cuticle Creams\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \>
+    Cuticle Creams & Oil \> Cuticle Oil\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \> False
+    Nails\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \>
+    Manicure Glue\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \> Nail
+    Art Kits & Accessories\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \> Nail
+    Polish Drying Drops & Sprays\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \> Nail
+    Polish Removers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \> Nail
+    Polish Thinners\
+    Health & Beauty \> Personal Care \> Cosmetics \> Nail Care \> Nail
+    Polishes\
+    Health & Beauty \> Personal Care \> Cosmetics \> Perfumes & Colognes
+    \> Body Mists\
+    Health & Beauty \> Personal Care \> Cosmetics \> Perfumes & Colognes
+    \> Colognes\
+    Health & Beauty \> Personal Care \> Cosmetics \> Perfumes & Colognes
+    \> Eaux De Toilette\
+    Health & Beauty \> Personal Care \> Cosmetics \> Perfumes & Colognes
+    \> Eaux de Parfum\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Acne
+    Treatments & Kits\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \>
+    Anti-Aging Skin Care\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Body
+    Oil\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Body
+    Powder\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \>
+    Compressed Skin Care Mask Sheets\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Eye
+    Creams\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Face
+    Moisturizers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Face
+    Serums\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Facial
+    Cleansers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Facial
+    Cleansing Kits\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Facial
+    Pore Strips\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Lip
+    Balms & Treatments \> Lip Balms\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Lip
+    Balms & Treatments \> Medicated Lip Treatments\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \>
+    Lotions & Moisturizers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Makeup
+    Removers\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \>
+    Petroleum Jelly\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Skin
+    Care Masks & Peels\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Skin
+    Insect Repellent\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \>
+    Sunscreen\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \>
+    Tanning Products \> Self Tanner\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \>
+    Tanning Products \> Tanning Oil & Lotions\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Toners
+    & Astringents \> Astringents\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Toners
+    & Astringents \> Toners\
+    Health & Beauty \> Personal Care \> Cosmetics \> Skin Care \> Wart
+    Removers\
+    Health & Beauty \> Personal Care \> Cotton Balls\
+    Health & Beauty \> Personal Care \> Cotton Swabs\
+    Health & Beauty \> Personal Care \> Deodorants & Anti-Perspirant \>
+    Anti-Perspirant\
+    Health & Beauty \> Personal Care \> Deodorants & Anti-Perspirant \>
+    Deodorants\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Feminine Deodorants\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Feminine Douches\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Feminine Pads & Protectors \> Maternity Pads & Protectors\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Feminine Pads & Protectors \> Overnight Pads & Protectors\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Feminine Pads & Protectors \> Panty Liners\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Feminine Pads & Protectors \> Regular Pads & Protectors\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Feminine Pads & Protectors \> Reusable Clothes\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Menstrual Cups\
+    Health & Beauty \> Personal Care \> Feminine Sanitary Supplies \>
+    Tampons\
+    Health & Beauty \> Personal Care \> Foot Care \> Bunion Care
+    Supplies\
+    Health & Beauty \> Personal Care \> Foot Care \> Corn & Callus Care
+    Supplies\
+    Health & Beauty \> Personal Care \> Foot Care \> Foot Odor Removers\
+    Health & Beauty \> Personal Care \> Foot Care \> Insoles & Inserts
+    \> Arch Supports\
+    Health & Beauty \> Personal Care \> Foot Care \> Insoles & Inserts
+    \> Gel Heel Pads\
+    Health & Beauty \> Personal Care \> Foot Care \> Insoles & Inserts
+    \> Metatarsal Cushions\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Care Kits\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Color\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Color
+    Removers\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Coloring
+    Accessories\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Loss
+    Concealers\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Loss
+    Treatments\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Permanents &
+    Straighteners\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Shears\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Steamers &
+    Heat Caps\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling
+    Products\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tool
+    Accessories\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Combs & Brushes \> Hair Combs\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Combs & Brushes \> Hairbrushes & Combs\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Combs & Brushes \> Hot Air Brushes\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Combs & Brushes \> Paddle Hairbrushes\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Combs & Brushes \> Round Hairbrushes\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Combs & Brushes \> Straightening Brushes\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Curling Irons\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Hair Curlers\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Hair Dryers\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Hair Straighteners\
+    Health & Beauty \> Personal Care \> Hair Care \> Hair Styling Tools
+    \> Hair Styling Tool Sets\
+    Health & Beauty \> Personal Care \> Hair Care \> Shampoo &
+    Conditioner \> Conditioners\
+    Health & Beauty \> Personal Care \> Hair Care \> Shampoo &
+    Conditioner \> Shampoo\
+    Health & Beauty \> Personal Care \> Hair Care \> Shampoo &
+    Conditioner \> Shampoo & Conditioner Sets\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \> Back
+    Scratchers\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \> Eye
+    Pillows\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \> Massage
+    Chairs\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \> Massage
+    Oil\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \> Massage
+    Stone Warmers\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \> Massage
+    Stones\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \> Massage
+    Tables\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \>
+    Massagers \> Electric Massagers\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \>
+    Massagers \> Manual Massage Tools\
+    Health & Beauty \> Personal Care \> Massage & Relaxation \>
+    Massagers \> Massage Cushions\
+    Health & Beauty \> Personal Care \> Oral Care \> Breath Sprays\
+    Health & Beauty \> Personal Care \> Oral Care \> Dental Floss\
+    Health & Beauty \> Personal Care \> Oral Care \> Dental Mouthguards\
+    Health & Beauty \> Personal Care \> Oral Care \> Dental Water Jet
+    Replacement Tips\
+    Health & Beauty \> Personal Care \> Oral Care \> Dental Water Jets\
+    Health & Beauty \> Personal Care \> Oral Care \> Denture Adhesives\
+    Health & Beauty \> Personal Care \> Oral Care \> Denture Cleaners\
+    Health & Beauty \> Personal Care \> Oral Care \> Denture Repair
+    Kits\
+    Health & Beauty \> Personal Care \> Oral Care \> Dentures\
+    Health & Beauty \> Personal Care \> Oral Care \> Gum Stimulators \>
+    Electric Gum Stimulators\
+    Health & Beauty \> Personal Care \> Oral Care \> Gum Stimulators \>
+    Manual Gum Stimulators\
+    Health & Beauty \> Personal Care \> Oral Care \> Mouthwash\
+    Health & Beauty \> Personal Care \> Oral Care \> Orthodontic
+    Appliance Cases\
+    Health & Beauty \> Personal Care \> Oral Care \> Power Flossers\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Charcoal Powder\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    LED Light Kits\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Tray Cases\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Whitening Foam\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Whitening Gels\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Whitening Mouthwash\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Whitening Pens\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Whitening Pods\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Whitening Powder\
+    Health & Beauty \> Personal Care \> Oral Care \> Teeth Whiteners \>
+    Whitening Strips\
+    Health & Beauty \> Personal Care \> Oral Care \> Tongue Scrapers\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothbrush
+    Accessories \> Toothbrush Covers\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothbrush
+    Accessories \> Toothbrush Replacement Heads\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothbrush
+    Accessories \> Toothbrush Sanitizers\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothbrushes \>
+    Electric Toothbrushes\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothbrushes \>
+    Manual Toothbrushes\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothbrushes \>
+    Toothbrush Sets\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothpaste\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothpaste
+    Squeezers & Dispensers\
+    Health & Beauty \> Personal Care \> Oral Care \> Toothpicks\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \>
+    Aftershave\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Body &
+    Facial Hair Bleach\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Electric
+    Razor Accessories\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Electric
+    Razors \> Foil Electric Razors\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Electric
+    Razors \> Rotary Electric Razors\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Electric
+    Razors \> Trimmers\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Clipper & Trimmer Accessories\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Clippers & Trimmers\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Removal \> Depilatories\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Removal \> Electrolysis Devices\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Removal \> Epilators\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Removal \> Hair Removal Wax Warmers\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Removal \> Laser & IPL Hair Removal Devices \> IPL Hair Removal
+    Devices\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Removal \> Laser & IPL Hair Removal Devices \> Laser Hair Removal
+    Devices\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Hair
+    Removal \> Waxing Kits & Supplies\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Razors &
+    Razor Blades\
+    Health & Beauty \> Personal Care \> Shaving & Grooming \> Shaving
+    Bowls & Mugs\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Eye Masks\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Snoring & Sleep
+    Apnea Aids \> External Nasal Strips\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Snoring & Sleep
+    Apnea Aids \> Jaw Support Devices\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Snoring & Sleep
+    Apnea Aids \> Mandibular Advancement Devices (MAD)\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Snoring & Sleep
+    Apnea Aids \> Nasal Clips\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Snoring & Sleep
+    Apnea Aids \> Nasal Cones\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Snoring & Sleep
+    Apnea Aids \> Tongue Retaining Devices (TRD)\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> Travel Pillows\
+    Health & Beauty \> Personal Care \> Sleeping Aids \> White Noise
+    Machines\
+    Health & Beauty \> Personal Care \> Tweezers\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lens Care Kits\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lens Cases \> Barrel Contact Lens Cases\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lens Cases \> Flat Contact Lens Cases\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lens Solution\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lenses \> Biweekly Contact Lenses\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lenses \> Daily Contact Lenses\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lenses \> Monthly Contact Lenses\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lenses \> Weekly Contact Lenses\
+    Health & Beauty \> Personal Care \> Vision Care \> Contact Lens Care
+    \> Contact Lenses \> Yearly Contact Lenses\
+    Health & Beauty \> Personal Care \> Vision Care \> Eye Drops &
+    Lubricants\
+    Health & Beauty \> Personal Care \> Vision Care \> Eyeglass Lenses\
+    Health & Beauty \> Personal Care \> Vision Care \> Eyeglasses\
+    Health & Beauty \> Personal Care \> Vision Care \> Eyewear
+    Accessories \> Eyewear Cases & Holders\
+    Health & Beauty \> Personal Care \> Vision Care \> Eyewear
+    Accessories \> Eyewear Lens Cleaning Solutions\
+    Health & Beauty \> Personal Care \> Vision Care \> Eyewear
+    Accessories \> Eyewear Replacement Parts\
+    Health & Beauty \> Personal Care \> Vision Care \> Eyewear
+    Accessories \> Eyewear Straps & Chains \> Eyewear Chains\
+    Health & Beauty \> Personal Care \> Vision Care \> Eyewear
+    Accessories \> Eyewear Straps & Chains \> Eyewear Straps\
+    Health & Beauty \> Personal Care \> Vision Care \> Sunglass Lenses
