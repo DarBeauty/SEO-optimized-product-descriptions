@@ -254,13 +254,13 @@ CRITICAL REQUIREMENTS:
     Product Description\
     Title: \[Product Name in English\] (Outside a code block)\
    [Before writing the English product description, extract relevant keywords in English only. (Outside Code Blocks)]\
-   • Start writing the English description directly inside the code block without including any heading
-   • This is the first and most important step to ensure the product appears in search engine results.\
+   • Do not begin writing until the English keyword list is complete.\
    • Always include the brand name and its common Arabic spellings as part of the keywords list.\
    • Focus on combinations that reflect real customer search behavior: brand name + product type + benefit or concern.\
-   • Avoid overly broad or generic keywords. Prioritize high-intent, brand-driven phrases.\
    • The first sentence of the product description must include the brand name, product type, and one or more high-intent keywords in a natural, compelling way that aligns with how real customers search.\
-   • Do not begin writing until the English keyword list is complete.\
+   • The opening paragraph must be between 80–180 words and should provide a clear, benefit-focused summary that explains who the product is for, what it does, how it works, and what makes it unique. Avoid vague language or keyword stuffing—write naturally and with purpose.\
+   • Start writing the English description directly inside the code block without including any heading.\
+   • This is the first and most important step to ensure the product appears in search engine results.\\
     \
     [Product description starts here...]\
     `<br><br>`\
@@ -365,11 +365,12 @@ CRITICAL REQUIREMENTS:
     Product Description\
     Title: \[Product Name in Arabic\]\
    `[Before writing the Arabic product description, extract relevant keywords in Arabic only,(Outside Code Blocks) including all common variations of the brand name spelling (e.g., بالهمزة أو بدون، بتعريب جزئي أو كامل).]`\
-   `•`` Start writing the Arabic description directly inside the code block without including any heading.`\
-   `•`` The first sentence of the Arabic description must include the brand name, product type, and one or more high-intent keywords in a natural and compelling way that reflects how customers search in Arabic.\
-   `•`` Use clear and professional Modern Standard Arabic aligned with DarBeauty’s brand tone.`\
-   `•`` Avoid overly generic phrases, and focus on what customers actually search: brand name + benefit + type.`\
    `•`` Do not begin writing until the Arabic keyword list is complete.`\
+   `•`` Always include all common Arabic spelling variations of the brand name as part of the keywords.`\
+   `•`` Focus on natural combinations that reflect real customer search behavior in Arabic: brand name + product benefit + product type.`\
+   `•`` The first sentence of the Arabic description must include the brand name, product type, and one or more high-intent keywords in a natural and compelling way that reflects how customers search in Arabic.`\
+   `•`` The opening paragraph must be between 80–180 words and should provide a clear, benefit-focused summary that explains who the product is for, what it does, how it works, and what makes it unique. Avoid vague or overly generic phrases—write naturally using professional Modern Standard Arabic aligned with DarBeauty’s tone.`\
+   `•`` Start writing the Arabic description directly inside the code block without including any heading.`\`\
     \
     `[``ي``ب``د``أ`` ``و``ص``ف`` ``ا``ل``م``ن``ت``ج`` ``ه``ن``ا``...]`\
     \
