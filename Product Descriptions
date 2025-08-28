@@ -667,17 +667,17 @@ CRITICAL REQUIREMENTS:
 
 -   Follow exact hierarchy
 
--   A product may belong to multiple **main collections** and **subcategories** if it reasonably fits in more than one context (e.g., a Korean serum can be added to both `SKIN CARE > Serum & Treatments > Face Serum` and `K-BEAUTY > Korean Skin Care`).
+-   A product may belong to multiple **main collections** and **subcategories** if it reasonably fits in more than one context (e.g., a Korean serum can be added to both `SKIN CARE > Serum  Treatments > Face Serum` and `K-BEAUTY > Korean Skin Care`).
 
 -   Do not limit a product to only one collection if it genuinely applies to multiple logical browsing paths for the customer.
 
 -   Never assign irrelevant collections just to increase exposure. Only include paths that are truly relevant to the product’s core functions or use case.
 
--   Always add any bundle or multi-piece set to the “BUNDLE & SETS” collection, in addition to its main category.
+-   Always add any bundle or multi-piece set to the “BUNDLE  SETS” collection, in addition to its main category.
 
 **Example**:\
 `Collections:`\
-`SKIN CARE > Serum & Treatments > Face Serum`\
+`SKIN CARE > Serum  Treatments > Face Serum`\
 `K-BEAUTY > Korean Skin Care`
     **Shopify Category**
 
@@ -691,7 +691,7 @@ CRITICAL REQUIREMENTS:
 
 -   Choose the most specific and appropriate category for the product\
     **Example**:\
-    `Shopify Category: Health & Beauty > Personal Care > Cosmetics > Skin Care > Face Serums`\
+    `Shopify Category: Health  Beauty > Personal Care > Cosmetics > Skin Care > Face Serums`\
     **Tips and Warnings**
 
 ```{=html}
@@ -1019,22 +1019,22 @@ Sagging\
 ### My Collection List:
 1. SKIN CARE
 ---------------------------
-Cleanse & Exfoliate:
+Cleanse  Exfoliate:
   * Cleansers
   * Exfoliators
   * Micellar Water
 
-Moisturizing & Creams:
+Moisturizers and Creams:
   * Moisturizers
   * Face Mists
   * Face Oil
 
-Masks & Peels:
+Masks and Peels:
   * Peels
   * Sheet Masks
   * Clay Masks
 
-Serum & Treatments:
+Serum and Treatments:
   * Eye Care
   * Face Serum
   * Toners
@@ -1065,13 +1065,13 @@ Lips:
   * Lip Gloss
   * Lip Liner
 
-NailsU+202B:U+202C
+Nails
   * Nail Polish
   * Nail Care
 
 3. HAIR CARE
 ---------------------------
-  * Shampoo & Conditioner
+  * Shampoo and Conditioner
   * Hair Masks
   * Scalp Care
   * Hair Oil
@@ -1081,18 +1081,18 @@ NailsU+202B:U+202C
   * Heat Protection
   * Hair Dye
 
-4. BATH & BODY CARE
+4. BATH and BODY CARE
 ---------------------------
   * Body Wash
   * Body Lotion
   * Body Oil
   * Body Scrub
-  * Hand & Foot Care
+  * Hand and Foot Care
   * Intimate Care
   * Oral Care
   * Deodorants
 
-5. ELECTRICALS & TOOLS
+5. ELECTRICALS and TOOLS
 ---------------------------
 Electrical Tools:
   * Hair Dryers
@@ -1109,10 +1109,10 @@ Makeup Tools:
 
 Bath Loofahs
 Face Brushes
-Hair Brushes & Combs
+Hair Brushes and Combs
 Travel Bottles
 
-6. BUNDLE & SETS
+6. BUNDLE and SETS
 ---------------------------
   * Skin Care Sets
   * Makeup Sets
