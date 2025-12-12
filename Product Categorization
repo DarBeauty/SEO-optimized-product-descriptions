@@ -1,0 +1,188 @@
+Instructions for Automatic Product Categorization
+
+Objective
+
+When product details are provided, the system must analyze the product deeply and classify it into all relevant main and subcategories in the DarBeauty store.
+
+The output must be clean, structured, copyable, and without duplicating main categories.
+
+⸻
+
+Formatting Rules
+	1.	Each main category appears once only.
+	2.	List all related subcategories under the main category, each in a separate line.
+	3.	Every category name (main or sub) must be wrapped in its own code block using backticks `.
+	4.	If the product belongs to multiple main categories, separate them clearly.
+	5.	Do not repeat the same subcategory twice.
+	6.	If the product doesn’t fit any existing category, suggest a new subcategory relevant to cosmetics, skincare, makeup, or beauty.
+
+⸻
+
+Example 1
+
+Product:
+
+Skin1004 Quick Calming Duo (Cream + Toner Pads)
+
+Expected Output:
+
+SKIN CARE
+Moisturizers and Creams
+Moisturizers
+Serum and Treatments
+Toners
+
+BUNDLE & SETS
+Skin Care Sets
+
+K-BEAUTY
+Korean Skin Care
+
+
+⸻
+
+Example 2
+
+Product:
+
+Skin1004 Tone Brightening Set (Capsule Ampoule + Boosting Toner + Cleansing Gel Foam)
+
+Expected Output:
+
+SKIN CARE
+Cleanse and Exfoliate
+Cleansers
+Serum and Treatments
+Face Serum
+Toners
+Masks and Peels
+Peels
+
+BUNDLE and SETS
+Skin Care Sets
+
+K-BEAUTY
+Korean Skin Care
+
+
+⸻
+
+Summary
+	•	Each main category appears once only.
+	•	Subcategories are listed vertically under their main category.
+	•	Each name is inside a separate code block for easy copying.
+	•	Clean, structured, and no unnecessary duplication.
+
+⸻
+
+### My Collection List:
+1. SKIN CARE
+---------------------------
+Cleanse  Exfoliate:
+  * Cleansers
+  * Exfoliators
+  * Micellar Water
+
+Moisturizers and Creams:
+  * Moisturizers
+  * Face Mists
+  * Face Oil
+
+Masks and Peels:
+  * Peels
+  * Sheet Masks
+  * Clay Masks
+
+Serum and Treatments:
+  * Eye Care
+  * Face Serum
+  * Toners
+  * Lip Care
+
+Suncare
+
+2. MAKEUP
+---------------------------
+Face Makeup:
+  * Foundation
+  * Concealer
+  * Blush
+  * Bronzer
+  * Highlight
+  * BB/CC Cream
+  * Face Powder
+  * Setting Spray
+
+Eyes Makeup:
+  * Eyeshadow
+  * Mascara
+  * Eyeliner
+  * Brow Products
+
+Lips Makeup:
+  * Lipstick
+  * Lip Gloss
+  * Lip Liner
+
+Nails Makeup:
+  * Nail Polish
+  * Nail Care
+
+3. HAIR CARE
+---------------------------
+  * Shampoo and Conditioner
+  * Hair Masks
+  * Scalp Care
+  * Hair Oil
+  * Hair Creams
+  * Hair Serums
+  * Gels and Waxes
+  * Hair Spray
+  * Heat Protection
+  * Hair Dye
+
+4. BODY CARE
+---------------------------
+  * Body Wash
+  * Body Lotion
+  * Body Oil
+  * Body Scrub
+  * Hand and Foot Care
+  * Intimate Care
+  * Oral Care
+  * Deodorants
+  * Shaving Care
+
+5. ELECTRICALS and TOOLS
+---------------------------
+Electrical Tools:
+  * Hair Dryers
+  * Hair Straighteners
+  * Curling Irons
+  * Electric Hair Brushes
+
+Makeup Tools:
+  * Makeup BrushesShaving Care
+  * Beauty Sponges
+  * Eyelash Curlers
+  * Nail Tools
+  * Press-On Nails
+
+Bath Loofahs
+Face Brushes
+Hair Brushes and Combs
+Travel Bottles
+
+6. BUNDLE and SETS
+---------------------------
+  * Skin Care Sets
+  * Makeup Sets
+  * Hair Care Sets
+  * Gift Set
+  
+7. K-BEAUTY
+---------------------------
+  * Korean Skin Care
+  * Korean Makeup
+  * Korean Hair Care
+  * Korean Body Care
